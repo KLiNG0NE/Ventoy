@@ -6,14 +6,14 @@ Hier stelle ich meine Ventoy-Konfiguration vor. Ziel ist es eine große Sammlung
 
 Mit Ventoy ist es recht einfach möglich, verschiedene Betriebsysteme direkt von einem USB-Stick zu starten.
 
-## Vorraussetzungen
+## Voraussetzungen
 
 Dieses Projekt basiert darauf, dass **Ventoy** bereits auf einem USB-Stick installiert wurde. Weitere Infos sind direkt beim Anbieter abrufbar:  
 [www.ventoy.net](https://www.ventoy.net/)
 
 ## Support
 
-Hier wird nur ein angepasstes Bootmenü angeboten. Wer Support zum Boot-Prozess benötigt, sollte sich direkt an den Anbieter von Ventoy wenden:  
+Hier wird nur ein *angepasstes Bootmenü* für das Programm **Ventoy** angeboten. – Wer Support zum Boot-Prozess benötigt, sollte sich direkt an den Anbieter von Ventoy wenden:  
 [www.ventoy.net](https://www.ventoy.net/)
 
 ---
