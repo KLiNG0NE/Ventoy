@@ -1,6 +1,6 @@
 # KLiNG0NE / Ventoy
 
-Hier stelle ich meine Ventoy-Konfiguration vor. Ziel ist es eine große Sammlung an gängigen Betriebssystemen in ein passendes Boot-Menü zu integrieren.
+Hier stelle ich meine Ventoy-Konfiguration vor. Ziel ist es eine große Sammlung an gängigen Betriebssystemen in ein passendes Bootmenü zu integrieren.
 
 ## Was ist Ventoy?
 
