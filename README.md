@@ -11,6 +11,10 @@ Mit Ventoy ist es recht einfach möglich, verschiedene Betriebsysteme direkt von
 Dieses Projekt basiert darauf, dass **Ventoy** bereits auf einem Speichermedium, wie z. B. einem USB-Stick, installiert wurde. Weitere Infos sind direkt beim Anbieter abrufbar:  
 [www.ventoy.net](https://www.ventoy.net/)
 
+## Installation
+
+Derzeit befindet sich das Projekt in einem sehr frühen Stadium und ist noch nicht nutzbar.
+
 ## Support
 
 Hier wird nur ein *angepasstes Bootmenü* für das Programm **Ventoy** angeboten. – Wer Support zum Boot-Prozess benötigt, sollte sich direkt an den Anbieter von Ventoy wenden:  
