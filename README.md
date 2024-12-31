@@ -22,4 +22,4 @@ Hier wird nur ein *angepasstes Bootmenü* für das Programm **Ventoy** angeboten
 
 ---
 
-[KLiNG0NE](https://github.com/KLiNG0NE) / [Ventoy](https://github.com/KLiNG0NE/Ventoy/tree/main)
+[KLiNG0NE](https://github.com/KLiNG0NE) / [Ventoy](https://github.com/KLiNG0NE/Ventoy/)
