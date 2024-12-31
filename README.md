@@ -8,7 +8,7 @@ Mit Ventoy ist es recht einfach möglich, verschiedene Betriebsysteme direkt von
 
 ## Voraussetzungen
 
-Dieses Projekt basiert darauf, dass **Ventoy** bereits auf einem USB-Stick installiert wurde. Weitere Infos sind direkt beim Anbieter abrufbar:  
+Dieses Projekt basiert darauf, dass **Ventoy** bereits auf einem Speichermedium, wie z. B. einem USB-Stick, installiert wurde. Weitere Infos sind direkt beim Anbieter abrufbar:  
 [www.ventoy.net](https://www.ventoy.net/)
 
 ## Support
