@@ -13,7 +13,7 @@ Dieses Projekt basiert darauf, dass **Ventoy** bereits auf einem Speichermedium,
 
 ## Installation
 
-Derzeit befindet sich das Projekt in einem sehr frühen Stadium und ist noch nicht nutzbar.
+**Derzeit befindet sich dieses Projekt in einem sehr frühen Stadium und ist noch nicht nutzbar.**
 
 ## Support
 
