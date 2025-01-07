@@ -10,14 +10,14 @@
         { "VTOY_WIN11_BYPASS_NRO": "1" },
         { "VTOY_LINUX_REMOUNT": "1" },
         { "VTOY_MENU_TIMEOUT": "30" },
-        { "VTOY_DEFAULT_IMAGE": "/ISO/Linux/linuxmint-22-cinnamon-64bit-de-20240728-0622.iso" }
+        { "VTOY_DEFAULT_IMAGE": "/ISO/Linux/Linux Mint/linuxmint-22-cinnamon-64bit-de-20240728-0622.iso" }
     ],
     "theme":{
         "file": "/ventoy/theme/mytheme/theme.txt",
         "gfxmode": "1280x720",
-        "ventoy_left": "3%",
+        "ventoy_left": "2%",
         "ventoy_top": "1%",
-        "ventoy_color": "#808080",
+        "ventoy_color": "#1E1E1E",
         "fonts":[
             "/ventoy/theme/mytheme/dejavu_32.pf2",
             "/ventoy/theme/mytheme/dejavu_sans_12.pf2",
@@ -49,124 +49,176 @@
             "alias": "PrimeOS 64-Bit"
         },
         {
-            "image": "/ISO/BSD/GhostBSD-**.**.**.iso",
+            "dir": "/ISO/BSD/GhostBSD",
+            "alias": "GhostBSD …"
+        },
+        {
+            "image": "/ISO/BSD/GhostBSD/GhostBSD-**.**.**.iso",
             "alias": "GhostBSD"
         },
         {
-            "image": "/ISO/BSD/GhostBSD-**.**.*.iso",
+            "image": "/ISO/BSD/GhostBSD/GhostBSD-**.**.*.iso",
             "alias": "GhostBSD"
         },
         {
-            "image": "/ISO/BSD/GhostBSD-25.**.*.iso",
+            "image": "/ISO/BSD/GhostBSD/GhostBSD-25.**.*.iso",
             "alias": "GhostBSD 25"
         },
         {
-            "image": "/ISO/BSD/GhostBSD-24.**.*.iso",
+            "image": "/ISO/BSD/GhostBSD/GhostBSD-24.**.*.iso",
             "alias": "GhostBSD 24"
         },
         {
-            "image": "/ISO/Linux/antiX-**_386-full.iso",
-            "alias": "antiX - 32 Bit"
+            "dir": "/ISO/BSD/NomadBSD",
+            "alias": "NomadBSD …"
         },
         {
-            "image": "/ISO/Linux/antiX-**.*_386-full.iso",
-            "alias": "antiX - 32 Bit"
+            "image": "/ISO/BSD/NomadBSD/nomadbsd-***R-********.amd64.ufs.img",
+            "alias": "NomadBSD 64-Bit UFS"
         },
         {
-            "image": "/ISO/Linux/antiX-24_386-full.iso",
+            "dir": "/ISO/Linux/antiX",
+            "alias": "antiX …"
+        },
+        {
+            "image": "/ISO/Linux/antiX/antiX-**_386-full.iso",
+            "alias": "antiX - 32 Bit Full"
+        },
+        {
+            "image": "/ISO/Linux/antiX/antiX-**.*_386-full.iso",
+            "alias": "antiX - 32 Bit Full"
+        },
+        {
+            "image": "/ISO/Linux/antiX/antiX-24_386-full.iso",
             "alias": "antiX 24 - 32 Bit Full"
         },
         {
-            "image": "/ISO/Linux/antiX-24.*_386-full.iso",
+            "image": "/ISO/Linux/antiX/antiX-24.*_386-full.iso",
             "alias": "antiX 24.X - 32 Bit Full"
         },
         {
-            "image": "/ISO/Linux/antiX-23_386-full.iso",
+            "image": "/ISO/Linux/antiX/antiX-23_386-full.iso",
             "alias": "antiX 23 - 32 Bit Full"
         },
         {
-            "image": "/ISO/Linux/antiX-23.*_386-full.iso",
+            "image": "/ISO/Linux/antiX/antiX-23.*_386-full.iso",
             "alias": "antiX 23.X - 32 Bit Full"
         },
         {
-            "image": "/ISO/Linux/cachyos-desktop-linux-******.iso",
+            "dir": "/ISO/Linux/Bluestar Linux",
+            "alias": "Bluestar Linux …"
+        },
+        {
+            "image": "/ISO/Linux/Bluestar Linux/bslx-*.**.*-*-****.**.**-x86_64.iso",
+            "alias": "Bluestar Linux 64-Bit"
+        },
+        {
+            "dir": "/ISO/Linux/CachyOS",
+            "alias": "CachyOS Desktop …"
+        },
+        {
+            "image": "/ISO/Linux/CachyOS/cachyos-desktop-linux-******.iso",
             "alias": "CachyOS Desktop"
         },
         {
-            "image": "/ISO/Linux/CorePlus-15.0.iso",
-            "alias": "CorePlus Linux 15"
+            "dir": "/ISO/Linux/Debian",
+            "alias": "Debian …"
         },
         {
-            "image": "/ISO/Linux/debian-live-**.*.*-amd64-standard.iso",
+            "image": "/ISO/Linux/Debian/debian-live-**.*.*-amd64-standard.iso",
             "alias": "Debian Live 64-Bit Standard"
         },
         {
-            "image": "/ISO/Linux/debian-live-**.*.*-amd64-kde.iso",
+            "image": "/ISO/Linux/Debian/debian-live-**.*.*-amd64-kde.iso",
             "alias": "Debian Live 64-Bit KDE"
         },
         {
-            "image": "/ISO/Linux/debian-live-12.*.*-amd64-standard.iso",
+            "image": "/ISO/Linux/Debian/debian-live-12.*.*-amd64-standard.iso",
             "alias": "Debian Live 12 64-Bit Standard"
         },
         {
-            "image": "/ISO/Linux/debian-live-12.*.*-amd64-kde.iso",
+            "image": "/ISO/Linux/Debian/debian-live-12.*.*-amd64-kde.iso",
             "alias": "Debian Live 12 64-Bit KDE"
         },
         {
-            "image": "/ISO/Linux/debian-live-11.*.*-amd64-kde.iso",
+            "image": "/ISO/Linux/Debian/debian-live-11.*.*-amd64-kde.iso",
             "alias": "Debian Live 11 64-Bit KDE"
         },
         {
-            "image": "/ISO/Linux/debian-live-10.*.*-amd64-kde.iso",
+            "image": "/ISO/Linux/Debian/debian-live-10.*.*-amd64-kde.iso",
             "alias": "Debian Live 10 64-Bit KDE"
+        },
+        {
+            "dir": "/ISO/Linux/DSL2024",
+            "alias": "Damn Small Linux 2024"
         },
         {
             "image": "/ISO/Linux/dsl-2024.rc*.iso",
             "alias": "Damn Small Linux 2024 (Release Candidate)"
         },
         {
-            "image": "/ISO/Linux/easy-2.6.2-de-amd64.img",
-            "alias": "EasyOS 2.6.2 64-Bit"
+            "dir": "/ISO/Linux/EasyOS",
+            "alias": "EasyOS …"
         },
         {
-            "image": "/ISO/Linux/EndeavourOS_Endeavour_neo-****.**.**.iso",
+            "image": "/ISO/Linux/EasyOS/easy-7.*.*-amd64.img",
+            "alias": "EasyOS 7.X.X 64-Bit"
+        },
+        {
+            "image": "/ISO/Linux/EasyOS/easy-6.*.*-amd64.img",
+            "alias": "EasyOS 6.X.X 64-Bit"
+        },
+        {
+            "dir": "/ISO/Linux/EndeavourOS",
             "alias": "EndeavourOS"
         },
         {
-            "image": "/ISO/Linux/EndeavourOS_Endeavour_neo-2025.**.**.iso",
-            "alias": "EndeavourOS (2025)"
+            "image": "/ISO/Linux/EndeavourOS/EndeavourOS_Endeavour_neo-****.**.**.iso",
+            "alias": "EndeavourOS"
         },
         {
-            "image": "/ISO/Linux/EndeavourOS_Endeavour_neo-2024.09.22.iso",
+            "image": "/ISO/Linux/EndeavourOS/EndeavourOS_Endeavour_neo-2025.**.**.iso",
+            "alias": "EndeavourOS 2025.XX.XX"
+        },
+        {
+            "image": "/ISO/Linux/EndeavourOS/EndeavourOS_Endeavour_neo-2024.09.22.iso",
             "alias": "EndeavourOS 2024.09.22"
         },
         {
-            "image": "/ISO/Linux/extix-21.2-64bit-non-efi-lxqt-mini-980mb-210220.iso",
-            "alias": "ExTiX 21.2 LXQT 64-Bit Non-EFI"
+            "dir": "/ISO/Linux/ExTiX",
+            "alias": "ExTiX …"
         },
         {
-            "image": "/ISO/Linux/Fedora-Workstation-Live-x86_64-**-*.*.iso",
+            "image": "/ISO/Linux/ExTiX/extix-**.**-64bit-lxqt-*.*-refractasnapshot-2500mb-******.iso",
+            "alias": "ExTiX 64-Bit LXQT"
+        },
+        {
+            "image": "/ISO/Linux/ExTiX/extix-24.12-64bit-lxqt-2.0-refractasnapshot-2500mb-241223.iso",
+            "alias": "ExTiX 24.12 64-Bit LXQT"
+        },
+        {
+            "image": "/ISO/Linux/Fedora",
+            "alias": "Fedora …"
+        },
+        {
+            "image": "/ISO/Linux/Fedora/Fedora-Workstation-Live-x86_64-**-*.*.iso",
             "alias": "Fedora Workstation Live (64-Bit)"
         },
         {
-            "image": "/ISO/Linux/Fedora-Workstation-Live-x86_64-42-*.*.iso",
+            "image": "/ISO/Linux/Fedora/Fedora-Workstation-Live-x86_64-42-*.*.iso",
             "alias": "Fedora Workstation Live 42 (64-Bit)"
         },
         {
-            "image": "/ISO/Linux/Fedora-Workstation-Live-x86_64-41-*.*.iso",
+            "image": "/ISO/Linux/Fedora/Fedora-Workstation-Live-x86_64-41-*.*.iso",
             "alias": "Fedora Workstation Live 41 (64-Bit)"
         },
         {
-            "image": "/ISO/Linux/Fedora-Workstation-Live-x86_64-40-*.*.iso",
+            "image": "/ISO/Linux/Fedora/Fedora-Workstation-Live-x86_64-40-*.*.iso",
             "alias": "Fedora Workstation Live 40 (64-Bit)"
         },
         {
-            "image": "/ISO/Linux/Fedora-Workstation-Live-x86_64-39-*.*.iso",
+            "image": "/ISO/Linux/Fedora/Fedora-Workstation-Live-x86_64-39-*.*.iso",
             "alias": "Fedora Workstation Live 39 (64-Bit)"
-        },
-        {
-            "image": "/ISO/Linux/fossapup64-9.5.iso",
-            "alias": "Puppy Linux - Ubuntu Focal 64-Bit"
         },
         {
             "image": "/ISO/Linux/garuda-dr460nized-linux-zen-******.iso",
@@ -313,6 +365,18 @@
             "alias": "Pop!_OS 22.04 (Nvidia)"
         },
         {
+            "image": "/ISO/Linux/Puppy Linux",
+            "alias": "Puppy Linux …"
+        },
+        {
+            "image": "/ISO/Linux/Puppy Linux/BookwormPup64_10.0.9.iso",
+            "alias": "Puppy Linux - BookwormPup64 10.0.9 64-Bit"
+        },
+        {
+            "image": "/ISO/Linux/Puppy Linux/fossapup64-9.5.iso",
+            "alias": "Puppy Linux - Ubuntu Focal 64-Bit 9.5"
+        },
+        {
             "image": "/ISO/Linux/q4os-*.*-x64.r*.iso",
             "alias": "Q4OS (64-Bit)"
         },
@@ -329,20 +393,48 @@
             "alias": "Solus Budgie Release 2024-10-14"
         },
         {
-            "image": "/ISO/Linux/tails-amd64-*.*.***",
+            "image": "/ISO/Linux/Tails/tails-amd64-*.*.***",
             "alias": "Tails Linux"
         },
         {
-            "image": "/ISO/Linux/tails-amd64-*.**.***",
+            "image": "/ISO/Linux/Tails/tails-amd64-*.**.***",
             "alias": "Tails Linux"
         },
         {
-            "image": "/ISO/Linux/tails-amd64-6.10.iso",
+            "image": "/ISO/Linux/Tails/tails-amd64-6.10.iso",
             "alias": "Tails 6.10 (ISO)"
         },
         {
-            "image": "/ISO/Linux/tails-amd64-6.10.img",
+            "image": "/ISO/Linux/Tails/tails-amd64-6.10.img",
             "alias": "Tails 6.10 (IMG)"
+        },
+        {
+            "dir": "/ISO/Linux/Tiny Core Linux",
+            "alias": "Tiny Core Linux"
+        },
+        {
+            "image": "/ISO/Linux/Tiny Core Linux/CorePlus-**.*.iso",
+            "alias": "Tiny Core Linux - CorePlus"
+        },
+        {
+            "image": "/ISO/Linux/Tiny Core Linux/CorePlus-16.*.iso",
+            "alias": "Tiny Core Linux - CorePlus 16.X"
+        },
+        {
+            "image": "/ISO/Linux/Tiny Core Linux/CorePlus-15.*.iso",
+            "alias": "Tiny Core Linux - CorePlus 15.X"
+        },
+        {
+            "dir": "/ISO/Linux/Xubuntu",
+            "alias": "Xubuntu"
+        },
+        {
+            "image": "/ISO/Linux/Xubuntu/xubuntu-**.**.*-desktop-amd64.iso",
+            "alias": "Xubuntu 64-Bit"
+        },
+        {
+            "image": "/ISO/Linux/Xubuntu/xubuntu-24.04.*-desktop-amd64.iso",
+            "alias": "Xubuntu 24.04 64-Bit"
         },
         {
             "image": "/ISO/Windows/Win11_24H2_German_x64v*.iso",
@@ -355,6 +447,10 @@
         {
             "image": "/ISO/Windows/Win11_23H2_German_x64v*.iso",
             "alias": "Windows 11 23H2 Deutsch"
+        },
+        {
+            "image": "/ISO/Windows/Windows 10/Win10_22H2_German_x64v*.iso",
+            "alias": "Windows 10 22H2 Deutsch 64-Bit"
         },
         {
             "image": "/ISO/Windows/Windows-10-64-22H2-deu.iso",
@@ -496,7 +592,7 @@
     "menu_tip":{
         "left": "5%",
         "top": "88%",
-        "color": "red",
+        "color": "#FFD800",
         "tips":[
             {
                 "dir": "/ISO/Android",
@@ -543,24 +639,60 @@
                 "tip": "Ein Android-basiertes Open-Source-Betriebssystem <https://www.primeos.in/download/>"
             },
             {
+                "dir": "/ISO/BSD/GhostBSD",
+                "tip": "GhostBSD - Freies unixoides Desktop-Betriebssystem für x64-Rechner <https://www.ghostbsd.org/>"
+            },
+            {
                 "image": "/ISO/BSD/GhostBSD-**.**.**.iso",
-                "tip": "Freies unixoides Desktop-Betriebssystem für x64-Rechner <https://www.ghostbsd.org/>"
+                "tip": "GhostBSD - Freies unixoides Desktop-Betriebssystem für x64-Rechner <https://www.ghostbsd.org/>"
             },
             {
                 "image": "/ISO/BSD/GhostBSD-**.**.*.iso",
-                "tip": "Freies unixoides Desktop-Betriebssystem für x64-Rechner <https://www.ghostbsd.org/>"
+                "tip": "GhostBSD - Freies unixoides Desktop-Betriebssystem für x64-Rechner <https://www.ghostbsd.org/>"
+            },
+            {
+                "dir": "/ISO/BSD/NomadBSD",
+                "tip": "NomadBSD - Ein persistentes Live-System für USB-Sticks <https://nomadbsd.org/>"
+            },
+            {
+                "image": "/ISO/BSD/NomadBSD/nomadbsd-***R-********.amd64.ufs.img",
+                "tip": "NomadBSD 64-Bit UFS - Ein persistentes Live-System für USB-Sticks <https://nomadbsd.org/>"
+            },
+            {
+                "image": "/ISO/BSD/NomadBSD/nomadbsd-***R-********.amd64.zfs.img",
+                "tip": "NomadBSD 64-Bit ZFS - Ein persistentes Live-System für USB-Sticks <https://nomadbsd.org/>"
+            },
+            {
+                "dir": "/ISO/Linux/antiX",
+                "tip": "antiX - Leichtgewichtige Distro ohne systemd [DEB] <https://antixlinux.com/>"
             },
             {
                 "image": "/ISO/Linux/antiX-**.*_386-full.iso",
-                "tip": "antiX - Leichtgewichtige Distro ohne systemd <https://antixlinux.com/>"
+                "tip": "antiX - Leichtgewichtige Distro ohne systemd [DEB] <https://antixlinux.com/>"
             },
             {
                 "image": "/ISO/Linux/antiX-**_386-full.iso",
-                "tip": "antiX - Leichtgewichtige Distro ohne systemd <https://antixlinux.com/>"
+                "tip": "antiX - Leichtgewichtige Distro ohne systemd [DEB] <https://antixlinux.com/>"
             },
             {
-                "image": "/ISO/Linux/cachyos-desktop-linux-******.iso",
-                "tip": "CachyOS - Leistungsstarkes, anpassbares und blitzschnelles Betriebssystem <https://cachyos.org/>"
+                "dir": "/ISO/Linux/Bluestar Linux",
+                "tip": "Bluestar Linux - Deutsche Distro auf Arch basierend [ARC/RR] <https://sourceforge.net/projects/bluestarlinux/>"
+            },
+            {
+                "image": "/ISO/Linux/Bluestar Linux/bslx-*.**.*-*-****.**.**-x86_64.iso",
+                "tip": "Bluestar Linux 64-Bit - Nutzer:bslx Passwort:user; Nutzer:root Passwort:admin"
+            },
+            {
+                "dir": "/ISO/Linux/CachyOS",
+                "tip": "CachyOS - Leistungsstarkes, anpassbares und blitzschnelles Betriebssystem [ARC/RR] <https://cachyos.org/>"
+            },
+            {
+                "image": "/ISO/Linux/CachyOS/cachyos-desktop-linux-******.iso",
+                "tip": "CachyOS - Leistungsstarkes, anpassbares und blitzschnelles Betriebssystem [ARC/RR] <https://cachyos.org/>"
+            },
+            {
+                "dir": "/ISO/Linux/Debian",
+                "tip": "Debian GNU/Linux - gemeinschaftlich entwickeltes freies Betriebssystem <https://www.debian.org/>"
             },
             {
                 "image": "/ISO/Linux/debian-live-**.*.*-amd64-kde.iso",
@@ -571,88 +703,212 @@
                 "tip": "Debian Live Standard - https://www.debian.org/"
             },
             {
-                "image": "/ISO/Linux/dsl-****.rc*.iso",
-                "tip": "Damn Small Linux - Kleine Distro (700 MB) für ältere Hardware [BIOS/CSM] <https://www.damnsmalllinux.org/>"
+                "dir": "/ISO/Linux/DSL2024",
+                "tip": "Damn Small Linux 2024 - Kleine Distro (700 MB) für ältere Hardware [BIOS/CSM] <https://www.damnsmalllinux.org/>"
             },
             {
-                "image": "/ISO/Linux/EndeavourOS_Endeavour_neo-****.**.**.iso",
-                "tip": "EndeavourOS - Leichtgewichtige, Arch basierte Distro <https://endeavouros.com/>"
+                "image": "/ISO/Linux/dsl-****.rc*.iso",
+                "tip": "Damn Small Linux 2024 - Kleine Distro (700 MB) für ältere Hardware [BIOS/CSM] <https://www.damnsmalllinux.org/>"
+            },
+            {
+                "dir": "/ISO/Linux/EasyOS",
+                "tip": "EasyOS - Experimentelle Distro [IND] <https://easyos.org/>"
+            },
+            {
+                "image": "/ISO/Linux/EasyOS/easy-*.*.*-amd64.img",
+                "tip": "EasyOS 64-Bit - Experimentelle Distro [IND] <https://easyos.org/>"
+            },
+            {
+                "dir": "/ISO/Linux/EndeavourOS",
+                "tip": "EndeavourOS - Leichtgewichtige Distro [ARC] <https://endeavouros.com/>"
+            },
+            {
+                "image": "/ISO/Linux/EndeavourOS/EndeavourOS_Endeavour_neo-****.**.**.iso",
+                "tip": "EndeavourOS - Leichtgewichtige Distro [ARC] <https://endeavouros.com/>"
+            },
+            {
+                "image": "/ISO/Linux/EndeavourOS/EndeavourOS_Endeavour_neo-2024.09.22.iso",
+                "tip": "EndeavourOS 2024.09.22 - Leichtgewichtige Distro [ARC] <https://endeavouros.com/>"
+            },
+            {
+                "dir": "/ISO/Linux/ExTiX",
+                "tip": "ExTiX - Aus Schweden stammende Distro mit verschiedenen Desktops [UBN] <https://www.extix.se/>"
+            },
+            {
+                "image": "/ISO/Linux/ExTiX/extix-**.**-64bit-lxqt-*.*-refractasnapshot-2500mb-******.iso",
+                "tip": "ExTiX - Aus Schweden stammende Distro mit LXQT-Desktop [UBN] <https://www.extix.se/>"
+            },
+            {
+                "dir": "/ISO/Linux/Fedora",
+                "tip": "Einfach zu bedienendes Betriebssystem für Laptops und Desktop-Computer [REH] <https://fedoraproject.org/>"
             },
             {
                 "image": "/ISO/Linux/Fedora-Workstation-Live-x86_64-**-*.*.iso",
-                "tip": "Einfach zu bedienendes Betriebssystem für Laptops und Desktop-Computer <https://fedoraproject.org/>"
+                "tip": "Einfach zu bedienendes Betriebssystem für Laptops und Desktop-Computer [REH] <https://fedoraproject.org/>"
             },
             {
-                "image": "/ISO/Linux/garuda-dr460nized-linux-zen-******.iso",
-                "tip": "Garuda Linux - Benutzername: garuda Passwort: garuda <https://garudalinux.org/>"
+                "dir": "/ISO/Linux/Garuda",
+                "tip": "Garuda Linux ist eine auf Arch basierende Linux-Distribution, die sich an Computerspieler richtet [ARC] <https://garudalinux.org/>"
             },
             {
-                "image": "/ISO/Linux/kali-linux-****.*-live-amd64.iso",
-                "tip": "Kali Linux - Penetrationstests, Sicherheitsforschung, Computerforensik und Reverse Engineering - <https://www.kali.org/>"
+                "image": "/ISO/Linux/Garuda/garuda-dr460nized-linux-zen-******.iso",
+                "tip": "Garuda Linux - Nutzername/Passwort: garuda [ARC] <https://garudalinux.org/>"
             },
             {
-                "image": "/ISO/Linux/KaOS-****.**-x86_64.iso",
-                "tip": "KaOS Linux - Eine schlanke Distribution mit Schwerpunkt auf Qt und KDE <https://kaosx.us/>"
+                "image": "/ISO/Linux/Garuda/garuda-dr460nized-gaming-linux-zen-******.iso",
+                "tip": "Garuda Linux Gaming - Nutzername/Passwort: garuda [ARC] <https://garudalinux.org/>"
+            },
+            {
+                "dir": "/ISO/Linux/Kali Linux",
+                "tip": "Kali Linux - Penetrationstests, Sicherheitsforschung, Computerforensik und Reverse Engineering [DEB] <https://www.kali.org/>"
+            },
+            {
+                "image": "/ISO/Linux/Kali Linux/kali-linux-****.*-live-amd64.iso",
+                "tip": "Kali Linux Live 64-Bit - Penetrationstests, Sicherheitsforschung, Computerforensik und Reverse Engineering [DEB] <https://www.kali.org/>"
+            },
+            {
+                "image": "/ISO/Linux/Kali Linux/kali-linux-2024.4-live-amd64.iso",
+                "tip": "Kali Linux 2024.4 Live 64-Bit - Penetrationstests, Sicherheitsforschung, Computerforensik und Reverse Engineering [DEB] <https://www.kali.org/>"
+            },
+            {
+                "dir": "/ISO/Linux/KaOS",
+                "tip": "KaOS Linux - Eine schlanke Distribution mit Schwerpunkt auf Qt und KDE [IND/RR] <https://kaosx.us/>"
+            },
+            {
+                "image": "/ISO/Linux/KaOS/KaOS-****.**-x86_64.iso",
+                "tip": "KaOS Linux - Eine schlanke Distribution mit Schwerpunkt auf Qt und KDE [IND/RR] <https://kaosx.us/>"
+            },
+            {
+                "dir": "/ISO/Linux/Lubuntu",
+                "tip": "Lubuntu ist eine leichtgewichtige Distro z. B. für ältere Hardware [UBN/LTS] <https://lubuntu.me/>"
             },
             {
                 "image": "/ISO/Linux/lubuntu-**.**.*-desktop-amd64.iso",
-                "tip": "Lubuntu ist eine leichtgewichtige Distro z. B. für ältere Hardware <https://lubuntu.me/>"
+                "tip": "Lubuntu ist eine leichtgewichtige Distro z. B. für ältere Hardware [UBN/LTS] <https://lubuntu.me/>"
             },
             {
-                "image": "/ISO/Linux/linuxmint-**-cinnamon-64bit.iso",
-                "tip": "Linux Mint mit Cinnamon-Desktop <https://linuxmint.com/>"
+                "image": "/ISO/Linux/lubuntu-24.04.*-desktop-amd64.iso",
+                "tip": "Lubuntu 24.04 - eine leichtgewichtige Distro z. B. für ältere Hardware [UBN/LTS] <https://lubuntu.me/>"
             },
             {
-                "image": "/ISO/Linux/linuxmint-**.*-cinnamon-64bit.iso",
-                "tip": "Linux Mint mit Cinnamon-Desktop <https://linuxmint.com/>"
+                "dir": "/ISO/Linux/Linux Mint",
+                "tip": "Linux Mint - Geeignet für Windows-Umsteiger [UBN/LTS] <https://linuxmint.com/>"
             },
             {
-                "image": "/ISO/Linux/linuxmint-**.*-cinnamon-64bit-de-********-****.iso",
-                "tip": "Linux Mint mit Cinnamon-Desktop Deutsch <https://www.linuxmintusers.de/>"
+                "image": "/ISO/Linux/Linux Mint/linuxmint-**-cinnamon-64bit.iso",
+                "tip": "Linux Mint mit Cinnamon-Desktop 64-Bit [UBN/LTS] <https://linuxmint.com/>"
             },
             {
-                "image": "/ISO/Linux/linuxmint-**-cinnamon-64bit-de-********-****.iso",
-                "tip": "Linux Mint mit Cinnamon-Desktop Deutsch <https://www.linuxmintusers.de/>"
+                "image": "/ISO/Linux/Linux Mint/linuxmint-**.*-cinnamon-64bit.iso",
+                "tip": "Linux Mint mit Cinnamon-Desktop 64-Bit [UBN/LTS] <https://linuxmint.com/>"
+            },
+            {
+                "image": "/ISO/Linux/Linux Mint/linuxmint-**.*-cinnamon-64bit-de-********-****.iso",
+                "tip": "Linux Mint mit Cinnamon-Desktop Deutsch 64-Bit [UBN/LTS] <https://www.linuxmintusers.de/>"
+            },
+            {
+                "image": "/ISO/Linux/Linux Mint/linuxmint-**-cinnamon-64bit-de-********-****.iso",
+                "tip": "Linux Mint mit Cinnamon-Desktop Deutsch 64-Bit [UBN/LTS] <https://www.linuxmintusers.de/>"
+            },
+            {
+                "dir": "/ISO/Linux/Mageia",
+                "tip": "Mageia soll vor allem eine niedrige Einstiegsschwelle bieten <https://www.mageia.org/>"
             },
             {
                 "image": "/ISO/Linux/Mageia-*-Live-Plasma-x86_64.iso",
                 "tip": "Mageia soll vor allem eine niedrige Einstiegsschwelle bieten <https://www.mageia.org/>"
             },
             {
+                "dir": "/ISO/Linux/Manjaro",
+                "tip": "Manjaro - Auf Arch basierend mit XFCE-Desktop [ARC/SRR] <https://manjaro.org/>"
+            },
+            {
                 "image": "/ISO/Linux/manjaro-xfce-******-******-linux***.iso",
-                "tip": "Manjaro - Auf Arch basierend mit XFCE-Desktop <https://manjaro.org/>"
+                "tip": "Manjaro - Auf Arch basierend mit XFCE-Desktop [ARC/SRR] <https://manjaro.org/>"
             },
             {
-                "image": "/ISO/Linux/MX-**.*_x64.iso",
-                "tip": "MX Linux - Benutzer: demo Passwort: demo <https://mxlinux.org/>"
+                "dir": "/ISO/Linux/MX Linux",
+                "tip": "MX Linux - mittelschwere Distribution [DEB] <https://mxlinux.org/>"
             },
             {
-                "image": "/ISO/Linux/openSUSE-Leap-**.*-GNOME-Live-x86_64-Media.iso",
+                "image": "/ISO/Linux/MX Linux/MX-**.*_x64.iso",
+                "tip": "MX Linux - Nutzer/Passwort: demo <https://mxlinux.org/>"
+            },
+            {
+                "dir": "/ISO/Linux/openSUSE",
+                "tip": "openSUSE - Stabiles und benutzerfreundliches Betriebssystem <https://www.opensuse.org/>"
+            },
+            {
+                "image": "/ISO/Linux/openSUSE/openSUSE-Leap-**.*-GNOME-Live-x86_64-Media.iso",
                 "tip": "openSUSE Leap GNOME - Stabiles und benutzerfreundliches Betriebssystem <https://www.opensuse.org/>"
             },
             {
-                "image": "/ISO/Linux/pop-os_**.**_amd64_intel_**.iso",
-                "tip": "Pop!_OS - Ubuntu basiert, Gnome-Desktop <https://pop.system76.com/>"
+                "dir": "/ISO/Linux/Pop_OS",
+                "tip": "Pop!_OS - Ubuntu basiert, Gnome-Desktop [UBN] <https://pop.system76.com/>"
             },
             {
-                "image": "/ISO/Linux/pop-os_**.**_amd64_nvidia_**.iso",
-                "tip": "Pop!_OS - Ubuntu basiert, Gnome-Desktop <https://pop.system76.com/>"
+                "image": "/ISO/Linux/Pop_OS/pop-os_**.**_amd64_intel_**.iso",
+                "tip": "Pop!_OS - Ubuntu basiert, Gnome-Desktop [UBN] <https://pop.system76.com/>"
             },
             {
-                "image": "/ISO/Linux/q4os-*.*-x64.r*.iso",
-                "tip": "Q4OS - Leichtgewichtige Distro geeignet für ältere Hardware <https://www.q4os.org/>"
+                "image": "/ISO/Linux/Pop_OS/pop-os_**.**_amd64_nvidia_**.iso",
+                "tip": "Pop!_OS (Nvidia-Grafik) - Ubuntu basiert, Gnome-Desktop [UBN] <https://pop.system76.com/>"
             },
             {
-                "image": "/ISO/Linux/Solus-Budgie-Release-****-**-**.iso",
-                "tip": "Solus Budgie - Eigenständige Linux-Distribution <https://getsol.us/>"
+                "dir": "/ISO/Linux/Q4OS",
+                "tip": "Q4OS - Leichtgewichtige Distro geeignet für ältere Hardware [DEB] <https://www.q4os.org/>"
+            },
+            {
+                "image": "/ISO/Linux/Q4OS/q4os-*.*-x64.r*.iso",
+                "tip": "Q4OS - Leichtgewichtige Distro geeignet für ältere Hardware [DEB] <https://www.q4os.org/>"
+            },
+            {
+                "dir": "/ISO/Linux/Solus",
+                "tip": "Solus - Eigenständige Linux-Distribution [IND] <https://getsol.us/>"
+            },
+            {
+                "image": "/ISO/Linux/Solus/Solus-Budgie-Release-****-**-**.iso",
+                "tip": "Solus Budgie - Eigenständige Linux-Distribution [IND] <https://getsol.us/>"
+            },
+            {
+                "dir": "/ISO/Linux/Tails",
+                "tip": "Tails (The Amnesic Incognito Live System) ist ein Betriebssystem das gegen Überwachung und Zensur schützt. <https://tails.net/>"
             },
             {
                 "image": "/ISO/Linux/tails-amd64-*.*.***",
-                "tip": "Tails ist ein Betriebssystem das gegen Überwachung und Zensur schützt. <https://tails.net/>"
+                "tip": "Tails (The Amnesic Incognito Live System) ist ein Betriebssystem das gegen Überwachung und Zensur schützt. <https://tails.net/>"
             },
             {
                 "image": "/ISO/Linux/tails-amd64-*.**.***",
-                "tip": "Tails ist ein Betriebssystem das gegen Überwachung und Zensur schützt. <https://tails.net/>"
+                "tip": "Tails (The Amnesic Incognito Live System) ist ein Betriebssystem das gegen Überwachung und Zensur schützt. <https://tails.net/>"
+            },
+            {
+                "dir": "/ISO/Linux/Tiny Core Linux",
+                "tip": "Tiny Core Linux - minimalistische (< 250 MB) Linux-Distribution auf Basis von BusyBox und FLTK [IND] <http://tinycorelinux.net/>"
+            },
+            {
+                "image": "/ISO/Linux/Tiny Core Linux/CorePlus-**.*.iso",
+                "tip": "Tiny Core Linux (CorePlus) - Sehr kleines (250 MB) Linuxsystem <http://tinycorelinux.net/>"
+            },
+            {
+                "image": "/ISO/Linux/Tiny Core Linux/CorePlus-15.*.iso",
+                "tip": "Tiny Core Linux 15 (CorePlus) - Sehr kleines (250 MB) Linuxsystem <http://tinycorelinux.net/>"
+            },
+            {
+                "dir": "/ISO/Linux/Void Linux",
+                "tip": "Void Linux - Unabhängige Linux Distro [IND/SRR] <https://voidlinux.org/>"
+            },
+            {
+                "image": "/ISO/Linux/Void Linux/void-live-x86_64-********-xfce.iso",
+                "tip": "Void Linux Live XFCE - Nutzer: anon/root Passwort: voidlinux <https://voidlinux.org/>"
+            },
+            {
+                "dir": "/ISO/Linux/Xubuntu",
+                "tip": "Xubuntu - Ubuntu-Derivat mit XFCE-Desktop <https://xubuntu.org/>"
+            },
+            {
+                "image": "/ISO/Linux/Xubuntu/xubuntu-**.**.*-desktop-amd64.iso",
+                "tip": "Xubuntu 64-Bit - Ubuntu-Derivat mit XFCE-Desktop <https://xubuntu.org/>"
             },
             {
                 "image": "/ISO/Tools/AcronisTrueImage.iso",
@@ -754,52 +1010,172 @@
     },
     "menu_class":[
         {
-            "key": "AcronisTrueImage",
-            "class": "Acronis_True_Image"
-        },
-        {
-            "key": "android-x86",
+            "dir": "/ISO/Android/android-x86",
             "class": "android-x86"
         },
         {
-            "key": "antiX",
-            "class": "antix"
-        },
-        {
-            "key": "Bliss",
+            "dir": "/ISO/Android/Bliss",
             "class": "bliss"
         },
         {
-            "key": "cachyos",
+            "dir": "/ISO/BSD/GhostBSD",
+            "class": "ghost"
+        },
+        {
+            "dir": "/ISO/BSD/NomadBSD",
+            "class": "nomad"
+        },
+        {
+            "dir": "/ISO/Linux",
+            "class": "linux"
+        },
+        {
+            "dir": "/ISO/Linux/antiX",
+            "class": "antix"
+        },
+        {
+            "dir": "/ISO/Linux/Bluestar Linux",
+            "class": "bluestar"
+        },
+        {
+            "dir": "/ISO/Linux/CachyOS",
             "class": "cachyos"
         },
         {
-            "key": "clonezilla",
-            "class": "clonezilla"
+            "dir": "/ISO/Linux/Debian",
+            "class": "debian"
         },
         {
-            "key": "Core",
+            "dir": "/ISO/Linux/DSL2024",
+            "class": "dsl-2024"
+        },
+        {
+            "dir": "/ISO/Linux/EasyOS",
+            "class": "easyos"
+        },
+        {
+            "dir": "/ISO/Linux/EndeavourOS",
+            "class": "endeavour"
+        },
+        {
+            "dir": "/ISO/Linux/ExTiX",
+            "class": "extix"
+        },
+        {
+            "dir": "/ISO/Linux/Fedora",
+            "class": "fedora"
+        },
+        {
+            "dir": "/ISO/Linux/Garuda",
+            "class": "garuda"
+        },
+        {
+            "dir": "/ISO/Linux/Kali Linux",
+            "class": "kali"
+        },
+        {
+            "dir": "/ISO/Linux/Kanotix",
+            "class": "kanotix"
+        },
+        {
+            "dir": "/ISO/Linux/KaOS",
+            "class": "kaos"
+        },
+        {
+            "dir": "/ISO/Linux/KDE neon",
+            "class": "kde-neon"
+        },
+        {
+            "dir": "/ISO/Linux/Linux Mint",
+            "class": "mint"
+        },
+        {
+            "dir": "/ISO/Linux/Lubuntu",
+            "class": "lubuntu"
+        },
+        {
+            "dir": "/ISO/Linux/Mageia",
+            "class": "mageia"
+        },
+        {
+            "dir": "/ISO/Linux/Manjaro",
+            "class": "manjaro"
+        },
+        {
+            "dir": "/ISO/Linux/MX Linux",
+            "class": "mx-linux"
+        },
+        {
+            "dir": "/ISO/Linux/Neptune",
+            "class": "neptune"
+        },
+        {
+            "dir": "/ISO/Linux/Nobara",
+            "class": "nobara"
+        },
+        {
+            "dir": "/ISO/Linux/openSUSE",
+            "class": "opensuse"
+        },
+        {
+            "dir": "/ISO/Linux/Pop_OS",
+            "class": "pop-os"
+        },
+        {
+            "dir": "/ISO/Linux/Puppy Linux",
+            "class": "puppy"
+        },
+        {
+            "dir": "/ISO/Linux/Q4OS",
+            "class": "q4os"
+        },
+        {
+            "dir": "/ISO/Linux/Solus",
+            "class": "solus"
+        },
+        {
+            "dir": "/ISO/Linux/Tails",
+            "class": "tails"
+        },
+        {
+            "dir": "/ISO/Linux/Tiny Core Linux",
             "class": "tinycore"
         },
         {
-            "key": "debian",
-            "class": "debian"
+            "dir": "/ISO/Linux/Tuxedo OS",
+            "class": "tuxedo"
+        },
+        {
+            "dir": "/ISO/Linux/Ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "dir": "/ISO/Linux/Void",
+            "class": "void"
+        },
+        {
+            "dir": "/ISO/Linux/Void Linux",
+            "class": "void"
+        },
+        {
+            "dir": "/ISO/Linux/Xubuntu",
+            "class": "xubuntu"
+        },
+        {
+            "dir": "/ISO/Linux/Zorin OS",
+            "class": "zorin"
+        },
+        {
+            "dir": "/ISO/Tools/AcronisTrueImage",
+            "class": "Acronis_True_Image"
+        },
+        {
+            "dir": "/ISO/Tools/clonezilla",
+            "class": "clonezilla"
         },
         {
             "key": "drweb",
             "class": "dr-web"
-        },
-        {
-            "key": "dsl-2024",
-            "class": "dsl-2024"
-        },
-        {
-            "key": "easy",
-            "class": "easyos"
-        },
-        {
-            "key": "endeavour",
-            "class": "endeavour"
         },
         {
             "key": "eset_",
@@ -808,22 +1184,6 @@
         {
             "key": "extix",
             "class": "extix"
-        },
-        {
-            "key": "Fedora",
-            "class": "fedora"
-        },
-        {
-            "key": "fossapup",
-            "class": "puppy"
-        },
-        {
-            "key": "garuda",
-            "class": "garuda"
-        },
-        {
-            "key": "GhostBSD",
-            "class": "ghost"
         },
         {
             "key": "gparted",
@@ -838,60 +1198,12 @@
             "class": "hiren"
         },
         {
-            "key": "kali",
-            "class": "kali"
-        },
-        {
-            "key": "kaos",
-            "class": "kaos"
-        },
-        {
             "key": "krd",
             "class": "krd"
         },
         {
-            "key": "lubuntu",
-            "class": "lubuntu"
-        },
-        {
-            "key": "Mageia",
-            "class": "mageia"
-        },
-        {
-            "key": "manjaro",
-            "class": "manjaro"
-        },
-        {
             "key": "memtest",
             "class": "memtest"
-        },
-        {
-            "key": "mint",
-            "class": "mint"
-        },
-        {
-            "key": "MX-",
-            "class": "mx-linux"
-        },
-        {
-            "key": "OpenMandriva",
-            "class": "openmandriva"
-        },
-        {
-            "key": "openSUSE",
-            "class": "opensuse"
-        },
-        {
-            "key": "pclinuxos",
-            "class": "pclinuxos"
-        },
-        {
-            "key": "pop-os",
-            "class": "pop-os"
-        },
-        {
-            "key": "q4os",
-            "class": "q4os"
         },
         {
             "key": "ReactOS",
@@ -914,40 +1226,52 @@
             "class": "strelec"
         },
         {
-            "key": "Solus",
-            "class": "solus"
-        },
-        {
             "key": "systemrescue",
             "class": "systemrescue"
-        },
-        {
-            "key": "tails",
-            "class": "tails"
-        },
-        {
-            "key": "ubuntu",
-            "class": "ubuntu"
         },
         {
             "key": "ventoy",
             "class": "ventoy"
         },
         {
-            "key": "Win11",
+            "dir": "/ISO/Windows/Windows 11",
             "class": "win11"
         },
         {
-            "key": "Windows-10",
-            "class": "windows"
+            "dir": "/ISO/Windows/Win11",
+            "class": "win11"
         },
         {
-            "key": "Windows 7",
+            "dir": "/ISO/Windows/Windows 10",
+            "class": "win10"
+        },
+        {
+            "dir": "/ISO/Windows/Win10",
+            "class": "win10"
+        },
+        {
+            "key": "Win10",
+            "class": "win10"
+        },
+        {
+            "key": "Windows-10",
+            "class": "win10"
+        },
+        {
+            "dir": "/ISO/Windows/Windows 7",
             "class": "win7"
         },
         {
-            "key": "Windows XP",
+            "dir": "/ISO/Windows/Windows XP",
             "class": "winxp"
+        },
+        {
+            "dir": "/ISO/Windows/Windows PE",
+            "class": "winpe"
+        },
+        {
+            "dir": "/ISO/Windows/Windows_Recovery",
+            "class": "winrec"
         },
         {
             "key": "windows",
@@ -955,10 +1279,6 @@
         },
         {
             "key": "linux",
-            "class": "linux"
-        },
-        {
-            "dir": "/ISO/Linux",
             "class": "linux"
         },
         {
@@ -992,12 +1312,25 @@
     ],
     "persistence":[
         {
-            "image": "/ISO/Linux/linuxmint-22-cinnamon-64bit-de-20240728-0622.iso",
+            "image": "/ISO/Linux/Linux Mint/linuxmint-22-cinnamon-64bit-de-20240728-0622.iso",
             "backend":[
                 "/ventoy/persistence/persistence_xfs_4GB_casper-rw.dat"
             ],
             "autosel": 1,
             "timeout": 0
         }
-    ]
+    ],
+    "image_blacklist_uefi":[
+        "/ISO/Linux/DSL2024/dsl-2024.rc*.iso",
+        "/ISO/ventoy_wimboot.img"
+    ],
+    "password": {
+        "bootpwd": "txt#123456",
+        "menupwd": [
+            {
+                "file":"/ISO/Linux/Linux Mint/linuxmint-22-cinnamon-64bit-de-20240728-0622.iso",
+                "pwd":"md5#a#dc483e80a7a0bd9ef71d8cf973673924"
+            }
+        ]
+    }
 }
